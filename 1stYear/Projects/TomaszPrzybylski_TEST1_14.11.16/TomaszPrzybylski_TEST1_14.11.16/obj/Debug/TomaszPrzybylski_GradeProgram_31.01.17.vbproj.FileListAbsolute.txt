@@ -1,0 +1,36 @@
+\\kcfs04\StudentHome\KC68744\Visual Studio 2013\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\bin\Debug\TomaszPrzybylski_TEST1_14.11.16.exe.config
+\\kcfs04\StudentHome\KC68744\Visual Studio 2013\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\bin\Debug\TomaszPrzybylski_TEST1_14.11.16.exe
+\\kcfs04\StudentHome\KC68744\Visual Studio 2013\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\bin\Debug\TomaszPrzybylski_TEST1_14.11.16.pdb
+\\kcfs04\StudentHome\KC68744\Visual Studio 2013\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\bin\Debug\TomaszPrzybylski_TEST1_14.11.16.xml
+\\kcfs04\StudentHome\KC68744\Visual Studio 2013\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\obj\Debug\TomaszPrzybylski_TEST1_14._11._16.Frm_Scores.resources
+\\kcfs04\StudentHome\KC68744\Visual Studio 2013\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\obj\Debug\TomaszPrzybylski_TEST1_14._11._16.frm_StudentDetails.resources
+\\kcfs04\StudentHome\KC68744\Visual Studio 2013\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\obj\Debug\TomaszPrzybylski_TEST1_14._11._16.Resources.resources
+\\kcfs04\StudentHome\KC68744\Visual Studio 2013\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\obj\Debug\TomaszPrzybylski_GradeProgram_31.01.17.vbproj.GenerateResource.Cache
+\\kcfs04\StudentHome\KC68744\Visual Studio 2013\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\obj\Debug\TomaszPrzybylski_TEST1_14.11.16.exe
+\\kcfs04\StudentHome\KC68744\Visual Studio 2013\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\obj\Debug\TomaszPrzybylski_TEST1_14.11.16.xml
+\\kcfs04\StudentHome\KC68744\Visual Studio 2013\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\obj\Debug\TomaszPrzybylski_TEST1_14.11.16.pdb
+\\kcfs04\StudentHome\KC68744\Visual Studio 2013\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\obj\Debug\TomaszPrzybylski_TEST1_14._11._16.cert.resources
+N:\Visual Studio 2013\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\bin\Debug\TomaszPrzybylski_TEST1_14.11.16.exe.config
+N:\Visual Studio 2013\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\obj\Debug\TomaszPrzybylski_TEST1_14.11.16.exe
+N:\Visual Studio 2013\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\obj\Debug\TomaszPrzybylski_TEST1_14.11.16.xml
+N:\Visual Studio 2013\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\obj\Debug\TomaszPrzybylski_TEST1_14.11.16.pdb
+N:\Visual Studio 2013\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\bin\Debug\TomaszPrzybylski_TEST1_14.11.16.exe
+N:\Visual Studio 2013\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\bin\Debug\TomaszPrzybylski_TEST1_14.11.16.pdb
+N:\Visual Studio 2013\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\bin\Debug\TomaszPrzybylski_TEST1_14.11.16.xml
+N:\Visual Studio 2013\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\obj\Debug\TomaszPrzybylski_TEST1_14._11._16.cert.resources
+N:\Visual Studio 2013\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\obj\Debug\TomaszPrzybylski_TEST1_14._11._16.Frm_Scores.resources
+N:\Visual Studio 2013\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\obj\Debug\TomaszPrzybylski_TEST1_14._11._16.frm_StudentDetails.resources
+N:\Visual Studio 2013\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\obj\Debug\TomaszPrzybylski_TEST1_14._11._16.Resources.resources
+N:\Visual Studio 2013\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\obj\Debug\TomaszPrzybylski_GradeProgram_31.01.17.vbproj.GenerateResource.Cache
+K:\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\bin\Debug\TomaszPrzybylski_TEST1_14.11.16.exe.config
+K:\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\bin\Debug\TomaszPrzybylski_TEST1_14.11.16.exe
+K:\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\bin\Debug\TomaszPrzybylski_TEST1_14.11.16.pdb
+K:\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\bin\Debug\TomaszPrzybylski_TEST1_14.11.16.xml
+K:\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\obj\Debug\TomaszPrzybylski_TEST1_14._11._16.cert.resources
+K:\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\obj\Debug\TomaszPrzybylski_TEST1_14._11._16.Frm_Scores.resources
+K:\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\obj\Debug\TomaszPrzybylski_TEST1_14._11._16.frm_StudentDetails.resources
+K:\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\obj\Debug\TomaszPrzybylski_TEST1_14._11._16.Resources.resources
+K:\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\obj\Debug\TomaszPrzybylski_GradeProgram_31.01.17.vbproj.GenerateResource.Cache
+K:\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\obj\Debug\TomaszPrzybylski_TEST1_14.11.16.exe
+K:\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\obj\Debug\TomaszPrzybylski_TEST1_14.11.16.xml
+K:\Projects\TomaszPrzybylski_TEST1_14.11.16\TomaszPrzybylski_TEST1_14.11.16\obj\Debug\TomaszPrzybylski_TEST1_14.11.16.pdb

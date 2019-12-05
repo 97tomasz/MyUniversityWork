@@ -1,0 +1,10 @@
+\\kcfs04\studenthome\KC68744\Visual Studio 2013\Projects\TomaszPrzybylski_CaesarCypher_21.11.16\TomaszPrzybylski_CaesarCypher_21.11.16\bin\Debug\TomaszPrzybylski_CaesarCypher_21.11.16.exe.config
+\\kcfs04\studenthome\KC68744\Visual Studio 2013\Projects\TomaszPrzybylski_CaesarCypher_21.11.16\TomaszPrzybylski_CaesarCypher_21.11.16\bin\Debug\TomaszPrzybylski_CaesarCypher_21.11.16.exe
+\\kcfs04\studenthome\KC68744\Visual Studio 2013\Projects\TomaszPrzybylski_CaesarCypher_21.11.16\TomaszPrzybylski_CaesarCypher_21.11.16\bin\Debug\TomaszPrzybylski_CaesarCypher_21.11.16.pdb
+\\kcfs04\studenthome\KC68744\Visual Studio 2013\Projects\TomaszPrzybylski_CaesarCypher_21.11.16\TomaszPrzybylski_CaesarCypher_21.11.16\bin\Debug\TomaszPrzybylski_CaesarCypher_21.11.16.xml
+\\kcfs04\studenthome\KC68744\Visual Studio 2013\Projects\TomaszPrzybylski_CaesarCypher_21.11.16\TomaszPrzybylski_CaesarCypher_21.11.16\obj\Debug\TomaszPrzybylski_CaesarCypher_21._11._16.frm_Main.resources
+\\kcfs04\studenthome\KC68744\Visual Studio 2013\Projects\TomaszPrzybylski_CaesarCypher_21.11.16\TomaszPrzybylski_CaesarCypher_21.11.16\obj\Debug\TomaszPrzybylski_CaesarCypher_21._11._16.Resources.resources
+\\kcfs04\studenthome\KC68744\Visual Studio 2013\Projects\TomaszPrzybylski_CaesarCypher_21.11.16\TomaszPrzybylski_CaesarCypher_21.11.16\obj\Debug\TomaszPrzybylski_CaesarCypher_21.11.16.vbproj.GenerateResource.Cache
+\\kcfs04\studenthome\KC68744\Visual Studio 2013\Projects\TomaszPrzybylski_CaesarCypher_21.11.16\TomaszPrzybylski_CaesarCypher_21.11.16\obj\Debug\TomaszPrzybylski_CaesarCypher_21.11.16.exe
+\\kcfs04\studenthome\KC68744\Visual Studio 2013\Projects\TomaszPrzybylski_CaesarCypher_21.11.16\TomaszPrzybylski_CaesarCypher_21.11.16\obj\Debug\TomaszPrzybylski_CaesarCypher_21.11.16.xml
+\\kcfs04\studenthome\KC68744\Visual Studio 2013\Projects\TomaszPrzybylski_CaesarCypher_21.11.16\TomaszPrzybylski_CaesarCypher_21.11.16\obj\Debug\TomaszPrzybylski_CaesarCypher_21.11.16.pdb

@@ -1,0 +1,98 @@
+<html>
+<head>
+    <title></title>
+    <style>
+      h1 {
+                background-color: darkblue;
+                color: white;
+                padding: 16px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+                opacity: 0.9;
+                text-align: center;
+            }
+      input[type=text] {
+                width: 100%;
+                padding: 15px;
+                margin: 5px 0 22px 0;
+                display: inline-block;
+                border: none;
+                background: #f1f1f1;
+            }
+      .footer {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: grey;
+                color: black;
+                text-align: center;
+            }
+      .bookbutton {
+                background-color: black;
+                color: white;
+                padding: 16px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+                opacity: 0.9;
+            }
+    </style>
+</head>
+<body style="background-color: beige">
+    <img src="bus-banner.jpg">
+    <div class="btn-group" style="width:100%">
+            <button style="width:16%">Home</button>
+            <button style="width:16%">Vehicles</button>
+            <button style="width:16%"><a href="bookingvehicle.html">Booking</a></button>
+            <button style="width:16%"><a href="basket.html">Basket</a></button>
+            <button style="width:16%">About</button>
+            <button style="width:16%">Contact</button>
+    </div>
+    <h1>Book Your Car Online</h1>
+
+    <form>
+        <div class="container">
+
+        <label for="model"><b>Car Model</b></label>
+        <input type="text" placeholder="Car Model" name="carmodel"><br>
+
+        <label for="numberofvehicel"><b>Number Of Vehicle</b></label>
+        <input type="text" placeholder="Number of Vehicle" name="numberofvehicle"><br>
+
+        <label for="destination"><b>Destination</b></label>
+        <input type="text" placeholder="destination" name="destination"><br>
+
+        <label for="pickup"><b>Pick Up Location</b></label>
+        <input type="text" placeholder="Pick up place" name="pickup"><br>
+
+        <label for="pickupdate"><b>Pick Up Date</b></label>
+        <input type="text" placeholder="Pick up date" name="pickupdate"><br>
+
+        <label for="pickuptime"><b>Pick Up Time</b></label>
+        <input type="text" placeholder="Pick up time" name="pickuptime"><br>
+
+        <label for="return"><b>Return Location</b></label>
+        <input type="text" placeholder="Return Location" name="retun"><br>
+
+        <label for="retundate"><b>Return Date</b></label>
+        <input type="text" placeholder="Return Date" name="pickup"><br>
+
+        <label for="numberofpassenger"><b>Number Of Passenger</b></label>
+        <input type="text" placeholder="Number of Passenger" name="numberofpassenger"><br>
+
+        <button type="submit" class="bookbutton"><a href="payment.html">Book</a></button>
+
+        </div>
+
+        <div class="footer">
+            <p>Berwyn Bus Hire Company Ltd</p>
+            <p>K1602155 / K1834977 / K1524638 / K1823571 / K1515883</p>
+        </div>
+    </form>
+
+</body>
+</html>

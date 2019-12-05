@@ -1,0 +1,40 @@
+var heightLeft = $("#middle_left");
+var heightRight = $("#middle_right");
+var height_left = 0;
+var height_right = 0;
+
+if (heightLeft != null) {
+	height_left = heightLeft.height();
+}
+
+if (heightRight != null) {
+	height_right = heightRight.height();
+}
+
+if (height_left < height_right) {
+	heightLeft.height(height_right);
+}
+
+function downUp(id) {
+    var downImg = $("#down_" + id);
+    var upImg = $("#up_" + id);
+    var content = $("#content_" + id);
+
+    if (downImg.css("display") == "none") {
+        downImg.css("display", "block");
+    } else {
+        downImg.css("display", "none");
+    }
+
+    if (upImg.css("display") == "none") {
+        upImg.css("display", "block");
+    } else {
+        upImg.css("display", "none");
+    }
+
+    if (content.css("display") == "none") {
+        content.css("display", "block");
+    } else {
+        content.css("display", "none");
+    }
+}

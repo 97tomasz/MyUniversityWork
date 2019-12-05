@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title></title>
+    <style>
+        form.example input[type=text] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width: 80%;
+        background: #f1f1f1;
+        }
+
+        form.example button {
+        float: left;
+        width: 20%;
+        padding: 10px;
+        background: #2196F3;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none;
+        cursor: pointer;
+        }
+
+        form.example button:hover {
+        background: #0b7dda;
+        }
+
+        form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+        }
+
+        .footer {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: grey;
+                color: black;
+                text-align: center;
+            }
+    </style>
+</head>
+<body style="background-color: beige">
+        <img src="bus-banner.jpg"><br><br>
+        <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+            
+            <input type="text" placeholder="Search..." name="search">
+            <button type="submit"><i class="fa fa-search">Search</i></button><br><br><br><br>
+
+            <a href="loginpage.html" align="center">Login /</a>
+            <a href="register.html" align="center">Register</a>
+          
+            <div class="footer">
+                    <p>Berwyn Bus Hire Company Ltd</p>
+                    <p>K1602155 / K1834977 / K1524638 / K1823571 / K1515883</p>
+            </div>
+        </form>
+        <br><br>
+        <a href="payment.html">Next</a> / <a href="booking.html">Back</a>
+</body>
+</html>

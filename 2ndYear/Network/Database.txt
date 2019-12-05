@@ -1,0 +1,65 @@
+CREATE TABLE Employee
+(Employee_ID varchar2(8) PRIMARY KEY,
+EName varchar2(24) NOT NULL,
+Address varchar2(30) NOT NULL, 
+Home_Telephone_Number char(11) NOT NULL,
+Date_Of_Birth date NOT NULL,
+Gender char(1) CHECK (Gender ="M" OR Gender = "F") NOT NULL,
+Job_Description varchar2(300),
+National_Insurance_Number varchar2(14) NOT NULL,
+Current_Annual_Salary number(8) CHECK(Current_Annual_Salary > 0) NOT NULL)
+
+CREATE TABLE Driver 
+(Driver_ID varchar2(8) PRIMARY KEY,
+License_Number varchar2(16) UNIQUE NOT NULL,
+License_Expiry date NOT NULL,
+PCV_Serial_Number varchar2(8) REFERENCES PCV_License(PCV_Serial_Number) NOT NULL,
+CPC_Serial_Number varchar2(8) REFERENCES CPC_License(CPC_Serial_Number) NOT NULL,
+Employee_ID varchar2(8) REFERENCES Employee(Employee_ID) NOT NULL)
+
+CREATE TABLE TestT
+(Test_ID varchar2(8) PRIMARY KEY,
+Test_Type varchar2(8) NOT NULL,
+Results varchar2(8) NOT NULL,
+TDate date DEFAULT sysdate,
+Driver_ID varchar2(8) REFERENCES Driver(Driver_ID) NOT NULL)
+
+CREATE TABLE PCV_License
+(PCV_Serial_Number varchar2(8) PRIMARY KEY,
+PCV_Expiry_Date date NOT NULL)
+
+CREATE TABLE CPC_License 
+(CPC_Serial_Number varchar2(8) PRIMARY KEY,
+CPC_Expiry_Date date NOT NULL)
+
+CREATE TABLE Vehicle
+(Registration_Number varchar2(9) PRIMARY KEY,
+Date_Of_Registration date NOT NULL,
+Colour varchar2(30),
+Veh_Category_ID varchar2(8) REFERENCES Vehicle_Category(Veh_Category_ID) NOT NULL)
+
+CREATE TABLE Vehicle_Category
+(Veh_Category_ID varchar2(8) PRIMARY KEY,
+VMake varchar2(24) NOT NULL,
+VModel varchar2(24) NOT NULL,
+Hourly_Rate number(*,2) NOT NULL)
+
+CREATE TABLE Booking
+(Booking_ID varchar2(8) PRIMARY KEY,
+Trip_Details varchar2(200),
+Date_Required date NOT NULL,
+Destination varchar2(300) NOT NULL,
+Number_Of_Passangers number(3) CHECK(Number_Of_Passangers >=0)NOT NULL,
+Customer_ID varchar2(8) REFERENCES Customer(Customer_ID)NOT NULL,
+Driver_ID varchar2(8) REFERENCES Driver(Driver_ID) NOT NULL,
+Registration_Number varchar2(8) REFERENCES Vehicle(Registration_Number) NOT NULL)
+
+CREATE TABLE Customer
+(Customer_ID varchar2(8) PRIMARY KEY,
+Company_Name varchar2(300) NOT NULL,
+Contact_Name varchar2(300) NOT NULL,
+Address varchar2(300) NOT NULL,
+Email varchar2(30) NOT NULL,
+Contact_Number char(11) NOT NULL)
+
+---------------------------------------------------------------

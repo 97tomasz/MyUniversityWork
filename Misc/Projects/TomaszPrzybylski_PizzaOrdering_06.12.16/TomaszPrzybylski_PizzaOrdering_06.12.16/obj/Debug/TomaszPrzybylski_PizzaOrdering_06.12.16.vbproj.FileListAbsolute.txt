@@ -1,0 +1,10 @@
+\\kcfs04\studenthome\kc68744\visual studio 2013\Projects\TomaszPrzybylski_PizzaOrdering_06.12.16\TomaszPrzybylski_PizzaOrdering_06.12.16\bin\Debug\TomaszPrzybylski_PizzaOrdering_06.12.16.exe.config
+\\kcfs04\studenthome\kc68744\visual studio 2013\Projects\TomaszPrzybylski_PizzaOrdering_06.12.16\TomaszPrzybylski_PizzaOrdering_06.12.16\bin\Debug\TomaszPrzybylski_PizzaOrdering_06.12.16.exe
+\\kcfs04\studenthome\kc68744\visual studio 2013\Projects\TomaszPrzybylski_PizzaOrdering_06.12.16\TomaszPrzybylski_PizzaOrdering_06.12.16\bin\Debug\TomaszPrzybylski_PizzaOrdering_06.12.16.pdb
+\\kcfs04\studenthome\kc68744\visual studio 2013\Projects\TomaszPrzybylski_PizzaOrdering_06.12.16\TomaszPrzybylski_PizzaOrdering_06.12.16\bin\Debug\TomaszPrzybylski_PizzaOrdering_06.12.16.xml
+\\kcfs04\studenthome\kc68744\visual studio 2013\Projects\TomaszPrzybylski_PizzaOrdering_06.12.16\TomaszPrzybylski_PizzaOrdering_06.12.16\obj\Debug\TomaszPrzybylski_PizzaOrdering_06._12._16.Pizza.resources
+\\kcfs04\studenthome\kc68744\visual studio 2013\Projects\TomaszPrzybylski_PizzaOrdering_06.12.16\TomaszPrzybylski_PizzaOrdering_06.12.16\obj\Debug\TomaszPrzybylski_PizzaOrdering_06._12._16.Resources.resources
+\\kcfs04\studenthome\kc68744\visual studio 2013\Projects\TomaszPrzybylski_PizzaOrdering_06.12.16\TomaszPrzybylski_PizzaOrdering_06.12.16\obj\Debug\TomaszPrzybylski_PizzaOrdering_06.12.16.vbproj.GenerateResource.Cache
+\\kcfs04\studenthome\kc68744\visual studio 2013\Projects\TomaszPrzybylski_PizzaOrdering_06.12.16\TomaszPrzybylski_PizzaOrdering_06.12.16\obj\Debug\TomaszPrzybylski_PizzaOrdering_06.12.16.exe
+\\kcfs04\studenthome\kc68744\visual studio 2013\Projects\TomaszPrzybylski_PizzaOrdering_06.12.16\TomaszPrzybylski_PizzaOrdering_06.12.16\obj\Debug\TomaszPrzybylski_PizzaOrdering_06.12.16.xml
+\\kcfs04\studenthome\kc68744\visual studio 2013\Projects\TomaszPrzybylski_PizzaOrdering_06.12.16\TomaszPrzybylski_PizzaOrdering_06.12.16\obj\Debug\TomaszPrzybylski_PizzaOrdering_06.12.16.pdb

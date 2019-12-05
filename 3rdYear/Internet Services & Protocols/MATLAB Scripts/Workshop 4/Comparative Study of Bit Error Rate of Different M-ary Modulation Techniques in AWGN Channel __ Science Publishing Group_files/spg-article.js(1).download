@@ -1,0 +1,151 @@
+var toolTip = document.createElement("div");
+toolTip.innerHTML = "<div  id=\"toolTip\"\" ></div>";
+toolTip = toolTip.getElementsByTagName("div")[0];
+document.body.appendChild(toolTip);
+//get Element's location
+function getElePos(e){
+	var l=e.offsetLeft;
+	var t=e.offsetTop;
+	while(e=e.offsetParent){
+	l+=e.offsetLeft;
+	t+=e.offsetTop; 
+	}
+return [l, t];
+}
+
+//reveal TOOLTIP
+function showTip(event) {
+	var href = event.srcElement.href;
+	if(href && href.split("#").length==2) {
+		var cord = getElePos(event.srcElement);
+		var id = href.split("#")[1];
+		if(document.getElementById(id)){
+		toolTip.style.visibility='visible';
+		toolTip.style.left=cord[0] + 20;
+		toolTip.style.top=cord[1] + 25;
+		toolTip.innerHTML=document.getElementById(id).textContent;
+		toolTip.style.zIndex = event.srcElement.style.zIndex + 1;
+		}
+	}
+}
+
+//hide TOOLTIP	
+function hideTip(event) {
+	toolTip.style.visibility = 'hidden';
+}
+function addTipSupport(es) {
+	for(var i=0;i<es.length;i++){
+		var e = es[i];
+        if ("reference-hook" != e.className) {
+            continue;
+        }
+		e.onmouseover = function() {
+            var href = this.href;
+            if (href && href.split("#").length == 2) {
+                var cord = getElePos(this);
+                var id = href.split("#")[1];
+                if (document.getElementById(id)) {
+                    toolTip.style.visibility='visible';
+                    toolTip.style.left=(cord[0] + 20) + "px";
+                    toolTip.style.top=(cord[1] + 25) + "px";
+                    toolTip.innerHTML=document.getElementById(id).innerHTML;
+                    toolTip.style.zIndex = event.srcElement.style.zIndex + 10;
+                }
+            }
+        };
+		e.onmouseout = hideTip;
+	}
+}
+addTipSupport(document.getElementsByTagName("a"));
+
+var contextName = $("#context").val();
+var divPNLs=$("div.paper-navigation-line");
+if(divPNLs.length>0){
+	var addHTML="<img src='" + contextName + "/img/plus_icon.png' class='paper-navigation-line-sh'/> ";
+	for(var k=0;k<divPNLs.length;k++){
+		var kNext=$(divPNLs[k]).next();
+		if($(kNext).attr("class")!="paper-navigation-line"&&$(kNext).text()!=""){
+			var sHTML=$(divPNLs[k]).html();
+			$(divPNLs[k]).html(addHTML+sHTML);
+		}
+	}
+	
+}
+var uls=$("div.paper-navigation ul");
+if(uls.length>0){
+	uls.hide();
+}
+
+var levelOnes = $("tr.level-one-has-children .paper-content-td-num-one-table .paper-content-num-one-table");
+if (levelOnes.length > 0) {
+	for (var k = 0; k < levelOnes.length; k++) {
+		var addHTML="<img src='" + contextName + "/img/plus_icon.png' class='paper-navigation-line-sh-table' num='" + $(levelOnes[k]).attr("num") +"'/> ";
+		var sHTML = $(levelOnes[k]).html();
+		$(levelOnes[k]).html(addHTML + sHTML);
+	}
+}
+
+$("img.paper-navigation-line-sh").click(function(){
+	var eles = $(this).parent().parent().find("ul"); 
+	var ele=$(this).parent().next();
+	
+	if($(ele).css("display")=="none"){
+		eles.hide();
+		$("img.paper-navigation-line-sh").attr("src", contextName + "/img/plus_icon.png");
+		ele.show();
+		$(this).attr("src", contextName + "/img/minus_icon.png");	
+		return;
+	}
+	eles.hide();
+	$("img.paper-navigation-line-sh").attr("src", contextName + "/img/plus_icon.png");
+});
+
+$("img.paper-navigation-line-sh-table").click(function(){
+	var num = $(this).attr("num");
+	var levelTwos = $("tr.level-two_" + num);
+	for (var i = 0; i < levelTwos.length; i++) {
+		if ($(levelTwos[i]).css("display") == "none") {
+			$(levelTwos[i]).show();
+			var numTwos = $(".paper-content-num-two-table");
+			$(this).attr("src", contextName + "/img/minus_icon.png");
+		} else {
+			$(levelTwos[i]).hide();
+			$(this).attr("src", contextName + "/img/plus_icon.png");
+		}
+	}
+});
+
+function floatPaperNavigation(e){
+	var bodyTop=document.body.scrollTop;
+	if(bodyTop<=0){
+		var bodyTop=document.documentElement.scrollTop;	
+	}
+	if(bodyTop>160){
+		$("div.paper-navigation").css("top", bodyTop - 40);
+		$("#browseThisJournal").css("top", bodyTop - 180);
+	}else{
+		$("div.paper-navigation").css("top", 340);
+		$("#browseThisJournal").css("top", 0);
+	}
+}
+window.onscroll=floatPaperNavigation;
+
+// Deal with table
+function dealWithTable() {
+    var tables = document.getElementsByClassName("SciencePG-Table");
+    for (var i = 0; i < tables.length; i++) {
+        var table = tables[i];
+        var tds = table.getElementsByTagName("td");
+        for (var j = 0; j < tds.length; j++) {
+            var td = tds[j];
+            var width = td.width;
+            if (width != "") {
+                var suffix = width.indexOf("%");
+                if (suffix > 0) {
+                    td.width = Math.floor(parseInt(width) / 100 * 764) + "px";
+                }
+            }
+        }
+    }
+}
+dealWithTable();

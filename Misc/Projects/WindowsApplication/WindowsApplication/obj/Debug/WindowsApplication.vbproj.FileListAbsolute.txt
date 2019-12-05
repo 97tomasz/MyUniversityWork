@@ -1,0 +1,1 @@
+\\kcfs04\studenthome\kc68744\visual studio 2013\Projects\WindowsApplication\WindowsApplication\bin\Debug\WindowsApplication.exe.config

@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../font/firasans-Bold.eot');
+    src: url('../font/firasans-Bold.eot') format('embedded-opentype'),
+         url('../font/FiraSans-Bold.woff') format('woff'),
+         url('../font/firasans-bold.ttf') format('truetype'),
+         url('FiraSans-Bold.svg#FiraSans-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../font/firasans-regular.eot');
+    src: url('../font/firaSans-regular.eot') format('embedded-opentype'),
+         url('../font/FiraSans-Regular.woff') format('woff'),
+         url('../font/firasans-regular.ttf') format('truetype'),
+         url('FiraSans-Regular.svg#FiraSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{margin: 0;padding:0;overflow-x: hidden;}
+img{border:0;}
+a{text-decoration: none;}
+.clear{clear: both;}
+.body{width:100%;width:1260px;margin: 0 auto;font-family: Fira Sans,Arial,sans-serif;}
+.head{width:100%;width: 1260px;position: relative;z-index: 1000;}
+.logo_bg{width: 250px;height:110px;background-color: #A41717;text-align: center;float: left;}
+.logo{position: relative;top:25px;}
+.adven{float: left;margin-left: 60px; margin-top: 10px;}
+.title2{margin-top: 10px;margin-left: 40px; float: left;background-image:url(../img/top_adv.jpg);height: 80px;width: 580px;}
+.form{width: 350px;height: auto;float: right;}
+.inp{width:258px;height:31px;float: left;margin-top: 10px;text-indent: 10px;line-height: 30px;background-color: #F9F9F9;border-style: none;border:1px solid #E0DEDE;color: #666666;font-size:12px;font-family: Fira Sans,Arial,sans-serif;}
+.login{width:80px;height: 35px;background-color: #4583C0;float: right;font-family: Fira Sans,Arial,sans-serif;font-size: 16px;color:#FFFFFF;line-height: 35px;margin-top: 10px;}
+.log{margin-left: 10px;}
+.log a{color:#FFFFFF;}
+.line{border-bottom: 1px solid #E0DEDE;width:100%;height:0;}
+.tab{width:auto;padding-left: 10px;padding-right: 10px; height: 55px;float: left;font-family: Fira Sans,Arial,sans-serif;font-weight: bold; font-size: 19px;color:#222222;line-height: 55px;text-align: center;}
+.tab a{color:#222222;}
+.tab img{width: 9px;height: 9px;}
+.contact_us{float: right;height: 20px;width: auto;padding-left: 10px;padding-right: 10px;font-family: Fira Sans,Arial,sans-serif;font-size: 14px;border-left: 1px solid #E0DEDE;border-right: 1px solid #E0DEDE; margin-top: 20px;line-height: 20px;}
+.contact_us a{color:#444444;}
+.pl{width:270px;height: 32px;border:0px solid #253A69;float: right;margin-top: 10px;margin-right: 9px;}
+.icon{width: 30px;height: 32px;background-color:#253A69;float: right;text-align: center;}
+.icon img{width:18px;height:18px;position: relative;top:5px;}
+.inp_search{float: right;width:224px;height: 28px;padding-left: 10px;line-height: 26px;border: 1px solid #253A69;color:#999999;}
+.special_issue{width:1258px;background-color: #A41717;height: 85px;position: relative;border: 1px solid #A41717;z-index: 1000;}
+.issue_title{position: relative;top:10px;margin-left: 20px;font-family: Fira Sans,Arial,sans-serif;font-size:28px;}
+.issue_title a{color: #FFFFFF;}
+.propose{font-family: Fira Sans,Arial,sans-serif;font-size: 15px;margin-left: 10px;position: relative;top:5px;}
+.red_line{width:1000px;height:2px;background-color:#B60505;}
+.ex{float: left;width:218px;height:144px;font-family: Fira Sans,Arial,sans-serif;font-size: 15px;color: #333333;border-right: 1px solid #FFFFFF;padding-top: 30px; padding-left: 30px;line-height: 25px;text-align: left;}
+.expand1{width:997px;height: 176px;position:absolute;margin-left: -81px;z-index: 10000;background-color: #EAEAEA;display: none;border: 1px solid #B60505;top:165px;}
+.expand2{width:997px;height: 176px;position:absolute;margin-left: -187px;z-index: 10000;background-color: #EAEAEA;display: none;border: 1px solid #B60505;top:165px;}
+.expand3{width:997px;height: 176px;position:absolute;margin-left: -342px;z-index: 10000;background-color: #EAEAEA;display: none;border: 1px solid #B60505;top:165px;}
+.expand4{width:997px;height: 176px;position:absolute;margin-left: -428px;z-index: 10000;background-color: #EAEAEA;display: none;border: 1px solid #B60505;top:165px;}
+.expand5{width:997px;height: 176px;position:absolute;margin-left: -569px;z-index: 10000;background-color: #EAEAEA;display: none;border: 1px solid #B60505;top:165px;}
+.itatic_image{position:relative;background-image:url(../img/partingline.png);width:100%;height:10px;}
+.separater{float:left;color:#E0DEDE;margin-top:5px;width:1px;margin-left:-4px;}
+.nav_service {width:67px;height:20px;float:right;border-left:1px solid #E0DEDE;line-height:20px;margin-top:20px;text-align:center;font-size:14px;}
+.nav_service a{color:#444444;}
+
+.foot{width:100%;margin-top: 20px;width:1260px;}
+.itatic_image2{background-image:url(../img/partingline.png);width:100%;height:10px;margin-top: 20px;}
+.foot_img{width:100%;height:130px;background-image: url(../img/indexing_logo.jpg);}
+.foot_img2{margin-top: 15px;}
+.foot_body{width: 100%;height:365px;background-color: #002147;}
+.foot_title1{width:auto;height: 190px;min-height: 50px;position: relative;top:30px; margin-left: 50px;font-family: Fira Sans,Arial,sans-serif;font-size: 16px;color:#FFFFFF;float: left;}
+.foot_title2{width:auto;height: auto;min-height: 50px;position: relative;top:30px; margin-left: 50px;font-family: Fira Sans,Arial,sans-serif;font-size: 16px;color:#FFFFFF;float: left;}
+.link{margin-top: 15px;}
+.link2{margin-top: 12px;line-height: 22px;}
+.link a{color:#FFFFFF;}
+.foot_line1{width: 100%;border-bottom: 1px solid #36506e;height: 0;margin-top: 30px;}
+.foot_logo{margin-left: 40px;margin-top: 40px;float: left;}
+.foot_line2{border-left: 1px solid #36506e;height: 145px;width: 0;float: left;margin-left: 30px;}
+.foot_link{float: left;height: 145px;width: auto;}
+.follow{width:160px;height: auto;min-height: 50px;position: relative;top:30px; margin-left: 20px;font-family: Fira Sans,Arial,sans-serif;font-size: 16px;color:#FFFFFF;float: left;}
+.img_logo{width:32px;height: 32px;margin-right: 10px;float: left;margin-top: 30px;}
+.footer{width:auto;height: 20px;color: #FFFFFF;font-family: Fira Sans,Arial,sans-serif;font-size: 14px;margin-left: 20px;margin-top: 20px;}
+.pj{height: auto;margin-bottom: 1px;}
+.footer a{color:#FFFFFF;}

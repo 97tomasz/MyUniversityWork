@@ -1,0 +1,26 @@
+<?php
+class Vehicle_Model {
+    private $ModelID;
+    private $VehicleModel;
+    private $NumberOfVehicles;
+    private $Passengers;
+    private $DrivingLicense;
+    private $HourlyRate;
+
+    function __get($vehicle_Model) {
+        return $this->$vehicle_Model;
+    }
+
+    function __set($vehicle_Model) {
+        return $this->$vehicle_Model = $value;
+    }
+
+    function displayVehicle_Model() {
+        return "$this->ModelID, $this->VehicleModel, $this->NumberOfVehicles, $this->Passengers, $this->DrivingLicense, $this->HourlyRate";
+    }
+
+}
+
+
+
+?>

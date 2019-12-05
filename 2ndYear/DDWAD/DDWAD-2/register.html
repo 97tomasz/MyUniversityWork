@@ -1,0 +1,90 @@
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+            a {
+                color: dodgerblue;
+                }
+            
+            .signin {
+                background-color: beige;
+                text-align: center;
+                }
+            
+            .registerbtn {
+                background-color: black;
+                color: white;
+                padding: 16px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+                opacity: 0.9;
+            }
+
+            input[type=text], input[type=password] {
+                width: 100%;
+                padding: 15px;
+                margin: 5px 0 22px 0;
+                display: inline-block;
+                border: none;
+                background: #f1f1f1;
+            }
+
+            .footer {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: grey;
+                color: black;
+                text-align: center;
+            }
+    </style>
+</head>
+<body style="background-color: beige">
+    <img src="bus-banner.jpg">
+    <div class="btn-group" style="width:100%">
+            <button style="width:16%">Home</button>
+            <button style="width:16%">Vehicles</button>
+            <button style="width:16%"><a href="bookingvehicle.html">Booking</a></button>
+            <button style="width:16%"><a href="basket.html">Basket</a></button>
+            <button style="width:16%">About</button>
+            <button style="width:16%">Contact</button>
+    </div>
+    
+    <form>
+        <div class="container">
+        <h2>Regiseter</h2>
+        <p>Please fill in the form to create an account.</p><br>
+
+        <label for="firstname"><b>First Name</b></label>
+        <input type="text" placeholder="Enter first name" required><br>
+
+        <label for="lastname"><b>Last Name</b></label>
+        <input type="text" placeholder="Enter last name" required><br>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email Address" required><br>
+        
+        <label for="password""><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" required><br>
+
+        <label for="confirmpassword"><b>Confirm Password</b></label>
+        <input type="password" placeholder="Enter password to confirm" required><br><br>
+
+        <button type="submit" class="registerbtn"><a href="welcomepage.html">Register</a></button>
+        </div>
+
+        <div class="container signin">
+            <p>Already have an account?<a href="loginpage.html">Sign In</a></p>
+        </div>
+
+        <div class="footer">
+                <p>Berwyn Bus Hire Company Ltd</p>
+                <p>K1602155 / K1834977 / K1524638 / K1823571 / K1515883</p>
+        </div>
+
+    </form>
+</body>    
+</html>

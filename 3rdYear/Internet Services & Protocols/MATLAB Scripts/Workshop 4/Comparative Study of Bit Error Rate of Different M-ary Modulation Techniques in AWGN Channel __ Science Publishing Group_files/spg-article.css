@@ -1,0 +1,453 @@
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0.2em 0;
+}
+hr {
+    border: 0px;
+    border-bottom: 1px solid #cccccc;
+}
+.paper-navigation {
+    font-family: Fira Sans,Arial,sans-serif;
+    font-size: 13px;
+    width: 295px;
+    border: 1px solid #999999;
+    border-bottom: 0px;
+    float: right;
+    position:absolute;
+    z-index: 10;
+    top: 340px;
+    right: 20px;
+	line-height:18px;
+	background-color: #FFFFFF;
+	min-height: 40px;
+	table-layout: fixed;
+}
+.paper-navigation .paper-navigation-line {
+    min-height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+	border-bottom: 1px solid #CCCCCC ;
+	padding-left:10px;
+}
+.paper-navigation .paper-navigation-line-sh,.paper-navigation .paper-navigation-line-sh-table {
+	cursor:pointer;
+	width:12px;
+	height:12px;
+}
+.paper-navigation ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+}
+.paper-navigation .paper-navigation-line a:link {
+    color: #001560;
+}
+.paper-navigation .paper-navigation-line a:visited {
+    color: #001560;
+}
+.paper-navigation .paper-navigation-content a:link {
+    color: #001560;
+}
+.paper-navigation .paper-navigation-content a:visited {
+    color: #001560;
+}
+.paper-navigation .paper-navigation-line a:hover,.paper-navigation .paper-navigation-content a:hover {
+    color: #001560;
+}
+.paper-content {
+    width: 888px;
+    min-height: 100px;
+    margin-top: 20px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+.paper-content .paper-content-list-1 {
+    width: 100px;
+    min-height: 100px;
+    float: left;
+}
+.paper-content .paper-content-list-1 div {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333333;
+}
+.paper-content .paper-content-list-2 {
+    width: 760px;
+    border-left: 1px dashed #cccccc;
+    min-height: 100px;
+    float: left;
+}
+.paper-content a.paper-content-one{
+    display: block;
+    min-height: 25px;
+    line-height: 25px;
+	margin-top:5px;
+    font-size: 14px;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #2F5BA6;
+}
+.paper-content a.paper-content-two {
+    display: block;
+    min-height: 30px;
+    line-height: 30px;
+    margin-left: 20px;
+    font-size: 13px;
+    color: #2F5BA6;
+}
+.clear {
+    clear: both;
+}
+.article {
+	font-family: Fira Sans,Arial,sans-serif;
+	font-size: 13px;
+	text-align: justify;
+	letter-spacing: 0.15pt;
+	line-height: 20px;
+	width: 888px;
+	margin:0;
+    display: block;
+    color: #333333;
+    word-wrap: break-word;
+    padding-left: 20px;
+}
+.article .SciencePG-Paper-title {
+	font-family: Fira Sans,Arial,sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 30px;
+    color: #333333;
+}
+.article .SciencePG-Issuename {
+    font-style: italic;
+}
+
+.SciencePG-Keywords-content {
+    margin-top: 15px;
+}
+
+.article .SciencePG-Abstract,.article .SciencePG-Keywords {
+    font-size: 18px;
+	font-weight: bold;
+	line-height:20px;
+	text-align: left;
+    color: #333333;
+}
+
+.article .SciencePG-Author,.article .SciencePG-Email-address,.article .SciencePG-To-cite-this-article {
+    font-size: 16px;
+	font-weight: bold;
+	padding-bottom:0;
+	line-height:20px;
+	text-align: left;
+    color: #333333;
+    margin-top: 15px;
+}
+.article .SciencePG-Level1-single-line,.article .SciencePG-Level1-Multiple-line,.article .SciencePG-ReferencesReferences,.article .SciencePG-Footnotes,.article  .SciencePG-AcknowledgementsAcknowledgements {
+	font-family: Fira Sans,Arial,sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+    margin-top: 15px;
+	color: #2F5BA6;
+    border-bottom: 1px dashed #2F5BA6;
+    line-height: 24px;
+}
+.article .SciencePG-Level1-single-line .level-one-num,.article .SciencePG-Level1-Multiple-line .level-one-num {
+    display: block;
+    float: left;
+    width: 45px;
+    height: 25px;
+    text-align: center;
+    margin-right: 5px;
+    background-color: #2F5BA6;
+    color: #ffffff;
+    line-height: 25px;
+}
+.article .SciencePG-Text {
+    margin-top: 10px;
+}
+.article .SciencePG-Level2-single-line,.article  .SciencePG-Level2-Multiple-line,.article .SciencePG-Level3-single-line,.article  .SciencePG-Level3-Multiple-line {
+	font-family: Fira Sans,Arial,sans-serif;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+    margin-top: 15px;
+	color: #2F5BA6;
+    border-bottom: 1px dashed #2F5BA6;
+    line-height: 24px;
+}
+.article .SciencePG-Level2-single-line .level-two-num,.article  .SciencePG-Level2-Multiple-line .level-two-num {
+    display: block;
+    float: left;
+    width: 45px;
+    height: 25px;
+    text-align: center;
+    margin-right: 5px;
+    background-color: #2F5BA6;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 25px;
+}
+.article .SciencePG-Level3-single-line .level-three-num,.article  .SciencePG-Level3-Multiple-line .level-three-num {
+    display: block;
+    float: left;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    margin-right: 5px;
+    background-color: #2F5BA6;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 25px;
+}
+.article .SciencePG-Figure-caption-single-line,.article .SciencePG-Figure-caption-multiple-lines,.article .SciencePG-Table-caption-single-line,.article .SciencePG-Table-caption-multiple-lines,.article .SciencePG-Table,.article .SciencePG-Formula {
+	text-align: center;
+}
+.article .SciencePG-Figure{
+	text-align:center;
+}
+.article .SciencePG-Figure {
+    display: block;
+}
+.article .SciencePG-Table {
+    font-size: 13px;
+	border-collapse: collapse;
+	margin: 0 auto 18pt auto;
+	border-collapse: collapse;
+	border: solid black;
+	border-width: 2px 0 2px 0px;
+    width: 764px;
+    table-layout: fixed;
+}
+.article table .SciencePG-Table-head {
+	border: solid black;
+	border-width: 0px 0px 1px 0px;
+	font-weight: bolder;
+}
+.article ol {
+    margin: 0px;
+    margin-top: 20px;
+    margin-left: -12px;
+    list-style-type: decimal;
+}
+.article ol li {
+    list-style: decimal;
+    list-style-type: decimal;
+}
+.article a:link {
+	color: #2F5BA6;
+}
+.article a:visited {
+	color: #2F5BA6;
+}
+#toolTip {
+    font-family: Fira Sans,Arial,sans-serif;
+	visibility: hidden;
+	border: 2px groove orange;
+	padding: 5px;
+	font-size: 12px;
+	background-color: #FFFFCC;
+	position: absolute;
+	width: 300px;
+	word-wrap: break-word;
+}
+.article .SciencePG-Affiliation,.article .SciencePG-To-cite-this-article-content{
+	line-height:20px;
+}
+.article .SciencePG-Email-address-content{
+	line-height:20px;
+}
+.paper-navigation div.paper-navigation-content {
+    width:295px;
+    height:30px;
+    line-height:30px;
+    background-color:#2F5BA6;
+    font-weight:bold;
+    color:#FFFFFF;
+    text-align:center;
+    font-size:15px;
+}
+.paper-navigation .paper-navigation-content-table {
+    width:295px;
+    height:30px;
+    line-height:30px;
+    font-weight:bold;
+    color:#333333;
+    text-align:center;
+    font-size:22px;
+}
+.paper-navigation td {
+    border-bottom: 1px solid #999999;
+    vertical-align: top;
+}
+.paper-navigation a {
+    color: #333333;
+}
+.paper-navigation .paper-navigation-line-table,.paper-navigation .paper-acknowledgements-line-table,.paper-navigation .paper-references-line-table,.paper-navigation .paper-footnotes-line-table {
+    width: 286px;
+    font-weight: bold;
+    line-height: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+.paper-navigation .paper-content-num-one-table {
+    width: 35px;
+    font-weight: bold;
+    color: #333333;
+    line-height: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align:right;
+}
+.paper-navigation .paper-content-num-two-table {
+    color: #001560;
+    line-height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.paper-navigation .paper-navigation-cont-line-table {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.paper-navigation .paper-navigation-cont-two-line-table {
+    width:215px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align:left;
+    padding-left: 5px;
+}
+.paper-navigation .paper-content-td-num-one-table,.paper-navigation .paper-content-td-num-two-table {
+    vertical-align: top;
+}
+.paper-navigation .level-two {
+    display: none;
+}
+.paper-navigation-cont-one-line-table {
+    padding-left: 10px;
+    line-height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.SciencePG-Paper-title-CH {
+    font-family: Fira Sans,Arial,sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 30px;
+    color: #333333;
+    margin-top: 15px;
+    text-align: center;
+}
+.SciencePG-Email-address-CH,.SciencePG-Author-CH {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 0;
+    line-height: 20px;
+    text-align: left;
+    color: #333333;
+    margin-top: 15px;
+}
+.SciencePG-Abstract-CH,.SciencePG-Keywords-CH {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: left;
+    color: #333333;
+}
+.SciencePG-Keywords-content-CH {
+    margin-top: 15px;
+}
+.SciencePG-Level1-single-line-CH,.SciencePG-Level1-Multiple-line-CH,.SciencePG-ReferencesReferences-CH {
+    font-family: Fira Sans,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+    color: #2F5BA6;
+    border-bottom: 1px dashed #2F5BA6;
+    line-height: 24px;
+}
+.SciencePG-Level1-single-line-CH .level-one-num,.SciencePG-Level1-Multiple-line-CH .level-one-num,.SciencePG-Footnote-CH {
+    display: block;
+    float: left;
+    width: 45px;
+    height: 25px;
+    text-align: center;
+    margin-right: 5px;
+    background-color: #2F5BA6;
+    color: #ffffff;
+    line-height: 25px;
+}
+.SciencePG-Level2-single-line-CH,.SciencePG-Level2-Multiple-line-CH,.SciencePG-Level3-single-line-CH,.SciencePG-Level3-Multiple-line-CH {
+    font-family: Fira Sans,Arial,sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+    color: #2F5BA6;
+    border-bottom: 1px dashed #2F5BA6;
+    line-height: 24px;
+}
+.SciencePG-Level2-single-line-CH .level-two-num,.SciencePG-Level2-Multiple-line-CH .level-two-num {
+    display: block;
+    float: left;
+    width: 45px;
+    height: 25px;
+    text-align: center;
+    margin-right: 5px;
+    background-color: #2F5BA6;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 25px;
+}
+.SciencePG-Table-caption-single-line-CH,.SciencePG-Table-caption-multiple-lines-CH,.SciencePG-Figure-caption-single-line-CH,.SciencePG-Figure-caption-multiple-lines-CH {
+    text-align: center;
+}
+.SciencePG-Text-CH {
+    margin-top: 10px;
+}
+.SciencePG-Table-head-CH {
+    border: solid black;
+    border-width: 0px 0px 1px 0px;
+    font-weight: bolder;
+}
+.SciencePG-Level3-single-line-CH .level-three-num,.SciencePG-Level3-Multiple-line-CH .level-three-num {
+    display: block;
+    float: left;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    margin-right: 5px;
+    background-color: #2F5BA6;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 25px;
+}
+table.SciencePG-Table tr td {
+	text-align: left;
+}
+
+.SciencePG-data-bold {font-weight:bold;}
+
+.SciencePG--correspondingauthor{margin-top:-10px;}

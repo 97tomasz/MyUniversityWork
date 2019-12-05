@@ -1,0 +1,2 @@
+\\kcfs04\studenthome\kc68744\visual studio 2013\Projects\14.11.16TestApp1\14.11.16TestApp1\bin\Debug\14.11.16TestApp1.exe.config
+N:\Visual Studio 2013\Projects\14.11.16TestApp1\14.11.16TestApp1\bin\Debug\14.11.16TestApp1.exe.config

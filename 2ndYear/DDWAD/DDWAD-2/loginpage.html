@@ -1,0 +1,62 @@
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        .footer {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: grey;
+                color: black;
+                text-align: center;
+            }
+
+        input[type=text], input[type=password] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+            }
+
+        button {
+                background-color: black;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+                }
+
+    </style>
+</head>
+<body style="background-color: beige">
+    <img src="bus-banner.jpg">
+    <h2>Login Form</h2>
+    <form>
+            <div class="container">
+                    <label for="username"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="username" required><br>
+                
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="password" required><br><br>
+                        
+                    <button type="submit">Login</button><br><br>
+                    
+                    <label>
+                      <input type="checkbox" checked="checked" name="remember"> Remember Me
+                    </label>
+
+                  </div>
+
+            <div class="footer">
+                        <p>Berwyn Bus Hire Company Ltd</p>
+                        <p>K1602155 / K1834977 / K1524638 / K1823571 / K1515883</p>
+            </div>
+    </form>
+    <a href="register.html">Register</a>
+</body>    
+</html>

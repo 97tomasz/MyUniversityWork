@@ -1,0 +1,10 @@
+\\kcfs04\studenthome\kc68744\visual studio 2013\Projects\TomaszPrzybylski_Fibonacci_03.01.17\TomaszPrzybylski_Fibonacci_03.01.17\bin\Debug\TomaszPrzybylski_Fibonacci_03.01.17.exe.config
+\\kcfs04\studenthome\kc68744\visual studio 2013\Projects\TomaszPrzybylski_Fibonacci_03.01.17\TomaszPrzybylski_Fibonacci_03.01.17\obj\Debug\TomaszPrzybylski_Fibonacci_03._01._17.Form1.resources
+\\kcfs04\studenthome\kc68744\visual studio 2013\Projects\TomaszPrzybylski_Fibonacci_03.01.17\TomaszPrzybylski_Fibonacci_03.01.17\obj\Debug\TomaszPrzybylski_Fibonacci_03._01._17.Resources.resources
+\\kcfs04\studenthome\kc68744\visual studio 2013\Projects\TomaszPrzybylski_Fibonacci_03.01.17\TomaszPrzybylski_Fibonacci_03.01.17\obj\Debug\TomaszPrzybylski_Fibonacci_03.01.17.vbproj.GenerateResource.Cache
+\\kcfs04\studenthome\kc68744\visual studio 2013\Projects\TomaszPrzybylski_Fibonacci_03.01.17\TomaszPrzybylski_Fibonacci_03.01.17\bin\Debug\TomaszPrzybylski_Fibonacci_03.01.17.exe
+\\kcfs04\studenthome\kc68744\visual studio 2013\Projects\TomaszPrzybylski_Fibonacci_03.01.17\TomaszPrzybylski_Fibonacci_03.01.17\bin\Debug\TomaszPrzybylski_Fibonacci_03.01.17.pdb
+\\kcfs04\studenthome\kc68744\visual studio 2013\Projects\TomaszPrzybylski_Fibonacci_03.01.17\TomaszPrzybylski_Fibonacci_03.01.17\bin\Debug\TomaszPrzybylski_Fibonacci_03.01.17.xml
+\\kcfs04\studenthome\kc68744\visual studio 2013\Projects\TomaszPrzybylski_Fibonacci_03.01.17\TomaszPrzybylski_Fibonacci_03.01.17\obj\Debug\TomaszPrzybylski_Fibonacci_03.01.17.exe
+\\kcfs04\studenthome\kc68744\visual studio 2013\Projects\TomaszPrzybylski_Fibonacci_03.01.17\TomaszPrzybylski_Fibonacci_03.01.17\obj\Debug\TomaszPrzybylski_Fibonacci_03.01.17.xml
+\\kcfs04\studenthome\kc68744\visual studio 2013\Projects\TomaszPrzybylski_Fibonacci_03.01.17\TomaszPrzybylski_Fibonacci_03.01.17\obj\Debug\TomaszPrzybylski_Fibonacci_03.01.17.pdb

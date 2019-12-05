@@ -1,0 +1,103 @@
+$(function(){ $('input').placeholder();$('textarea').placeholder();});
+function over(obj){
+    obj.style.backgroundColor="#EAEAEA";
+}
+function out(obj){
+    obj.style.backgroundColor="";
+}
+$(document).ready(function(){
+     $("#home").mouseover(function(){
+        $("#home").css("background-color","#EAEAEA");
+    });
+    $("#home").mouseout(function(){
+        $("#home").css("background-color","");
+    });
+    $("#news").mouseover(function(){
+        $("#news").css("background-color","#EAEAEA");
+    });
+    $("#news").mouseout(function(){
+        $("#news").css("background-color","");
+    });
+    $("#login").mouseover(function(){
+        $("#login").css("background-color","#8E0404");
+    });
+    $("#login").mouseout(function(){
+        $("#login").css("background-color","");
+    });
+    $("#register").mouseover(function(){
+        $("#register").css("background-color","#8E0404");
+    });
+    $("#register").mouseout(function(){
+        $("#register").css("background-color","");
+    });
+    $("#icon").mouseover(function(){
+        $("#icon").css("background-color","#3857A0");
+    });
+    $("#icon").mouseout(function(){
+        $("#icon").css("background-color","");
+    });
+    
+    $("#w1").css("display","none")
+    $("#y1").css("display","block")
+    $("#w2").css("display","none")
+    $("#y2").css("display","block")
+    $("#w3").css("display","none")
+    $("#y3").css("display","block")
+    $("#w4").css("display","none")
+    $("#y4").css("display","block")
+    $("#w5").css("display","none")
+    $("#y5").css("display","block")
+    $("#w6").css("display","none")
+    $("#y6").css("display","block")
+    $("#w7").css("display","none")
+    $("#y7").css("display","block")
+    $("#w8").css("display","none")
+    $("#y8").css("display","block")
+    $("#w9").css("display","none")
+    $("#y9").css("display","block")
+    $("#w10").css("display","none")
+    $("#y10").css("display","block")
+    $("#w11").css("display","none")
+    $("#y11").css("display","block")
+    $("#w12").css("display","none")
+    $("#y12").css("display","block")
+    $("#w13").css("display","none")
+    $("#y13").css("display","block")
+});
+
+function over2(obj){
+    obj.style.cssText="background-color:#FFFFFF;";
+    document.getElementById("a1").style.cssText="color:#111111"
+}
+function out2(obj){
+    obj.style.backgroundColor="";
+    document.getElementById("a1").style.cssText=""
+}
+function over3(obj){
+    obj.style.cssText="background-color:#FFFFFF;";
+    document.getElementById("a2").style.cssText="color:#111111"
+}
+function out3(obj){
+    obj.style.backgroundColor="";
+    document.getElementById("a2").style.cssText=""
+}
+function over4(obj){
+    obj.style.cssText="background-color:#DDDDDD;";
+    document.getElementById("a3").style.cssText="color:#111111"
+}
+function out4(obj){
+    obj.style.backgroundColor="";
+    document.getElementById("a3").style.cssText=""
+}
+function over5(obj){
+    obj.style.cssText="color:#2F5BA6";
+}
+function out5(obj){
+    obj.style.cssText="";
+}
+function over6(obj){
+    obj.style.cssText="background-color:#4583C0;color:#FFFFFF;"
+}
+function out6(obj){
+    obj.style.cssText=""
+}

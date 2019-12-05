@@ -1,0 +1,43 @@
+.propose a{display: block;float: left;width: auto;padding-left: 10px;padding-right: 10px;height: 30px;line-height: 30px;margin-left: -2px;z-index: 10000;position: relative;color:#FFFFFF;}
+.propose a:hover{background-color:#DDDDDD;color:#111111;}
+.middle{width:100%;position: relative;border: 1px solid #E0DEDE;width: 1258px;}
+.middle_right{width:300px; height: auto;min-height: 100px;float: right;padding-bottom: 60px;}
+.blue_line{width:260px;height:2px;background-color:#4583C0;}
+.expand6{width:260px;height:auto;position: absolute;margin-left: -11px; z-index: 1000;background-color: #FFFFFF;display: none;border:1px solid #4583C0;top:30px;}
+ul{list-style-type: none;line-height: 28px;}
+.ul a{color:#333333;font-size: 13px;margin-left: -10px;font-weight: bold;}
+.middle_left{width:935px;height:auto;min-height: 100px; background-image: url(../img/leftside_bg.jpg);background-repeat: repeat-y;float: left;border: 0;padding-bottom: 70px;}
+.middle_left_title{font-family: Fira Sans,Arial,sans-serif;font-size: 22px;color:#333333;margin-left: 25px;margin-top: 25px;}
+.middle_left_link{width: 270px;height: auto;min-height: 100px; margin-left: 25px;margin-top: 10px;background-color: #FFFFFF;border: 1px solid #E0DEDE;}
+.middle_left_link a{display: block;height: 37px;width: 250px;padding-left: 20px; font-family: Fira Sans,Arial,sans-serif;font-size: 16px;color:#333333;line-height: 37px;border-bottom: 1px solid #E0DEDE;}
+.middle_left_link a:hover{background:#2F5BA6;color:#FFFFFF;}
+.link_title{height: 39px;width: 250px;padding-left: 20px; font-family: Fira Sans,Arial,sans-serif;font-weight: bold;font-size: 15px;color:#333333;line-height: 39px;}
+.middle_right_title{font-family: Fira Sans,Arial,sans-serif;font-size: 12px;color:#333333;margin-left: 40px;margin-top: 20px;}
+.middle_right_title a{color:#333333;}
+.middle_right_title a:hover{color:#2F5BA6;}
+#vol{width: 930px;height: auto;min-height: 100px;margin-left: 40px;margin-top: 25px;float: left;}
+.economics{font-family: Fira Sans,Arial,sans-serif;font-size: 26px;color:#333333;font-weight: bold;line-height: 24px;}
+.line2{width:100%;height: 0;border-bottom: 1px solid #E0DEDE;margin-top: 20px;}
+.middle_right_container{width: 600px;height: auto;margin-top: 20px;float: left;}
+.middle_right_container2{width: 200px;height: auto;min-height: 100px; margin-left: 50px;float: left;margin-top: 20px;}
+.middle_right_you{font-size: 17px;color:#333333;line-height: 22px;font-weight: bold;}
+.middle_right_item{color:#B60505;font-size: 13px;line-height: 20px;}
+.middle_right_line{width:100%;border-bottom: 1px solid #E0DEDE;height: 0;margin-top: 8px;margin-bottom: 8px;}
+.middle_right_name{float: left;font-size: 14px;color: #333333;margin-top: 20px;}
+.middle_right_inp{width:488px;height: 26px;border: 0px solid #cccccc;float: right;margin-top: 20px;}
+.middle_right_textarea{width:488px;height:108px;border: 0px solid #cccccc;float: right;margin-top: 20px;}
+.middle_inp{border-style:none;width:476px;height:23px;padding-left: 10px;border:1px solid #cccccc;}
+.middle_select{border-style:none;width:100%;height:100%;font-size:12px;color:#666666;padding-left: 10px;border:1px solid #cccccc;}
+.middle_right_inp2{width:91px;height: 26px;border: 0px solid #cccccc;float: left;margin-left: 10px; margin-top: 20px;}
+.middle_inp2{border-style:none;width:79px;height:23px;padding-left: 10px;border: 1px solid #cccccc;}
+.vcode{width:91px;height:26px;border: 1px solid #CCCCCC;margin-left: 10px;float: left;margin-top: 20px;}
+.vcode_hint{font-size: 13px;color: #333333;margin-left: 10px;float: left;margin-top: 30px;}
+.vcode_hint a{color:#2F5BA6;}
+.download{background-image: url(../img/submit_btn_bg.png);width: 93px;height: 34px;line-height: 34px;text-align: center;color:#FFFFFF;font-size: 18px;font-weight: bold;float: left;margin-top: 40px;margin-left: 110px;}
+.middle_right_science{width:540px;height:190px;background-color: #4583C0;margin-bottom: 40px;padding:15px 30px;}
+.middle_right_science1{font-size: 22px;color:#FFFFFF;line-height: 26px;}
+.middle_right_science2{font-size: 16px;line-height: 30px;margin-top: 15px;color:#FFFFFF;}
+.middle_right_science2 a{color:#FFFFFF;}
+.middle_right_content{width:930px;line-height:20px;color:#333333;margin-top:8px;font-size:13px;}
+.middle_right_content a{color:#2F5BA6;}
+.middle_right_content_title{font-size:20px;margin-top:20px;}
